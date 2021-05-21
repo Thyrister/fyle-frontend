@@ -286,38 +286,38 @@ const BranchDetails = () => {
         </div>
       </div>
       <div salign="center" >
-        <div >
+        <div>
           <Pagination size="lg" color>
             <PaginationItem>
-              <PaginationLink 
+            <PaginationLink 
                 onClick={() => {
-                  if (offset > 0) setOffset(offset - limit);
+                if (offset > 0) setOffset(offset - limit);
                 }}
                 previous
-              />
+            />
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink onClick={() => setOffset(0)}>1</PaginationLink>
+            <PaginationLink onClick={() => setOffset(0)}>1</PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink onClick={() => setOffset(limit)}>
+            <PaginationLink onClick={() => setOffset(limit)}>
                 2
-              </PaginationLink>
+            </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink onClick={() => setOffset(limit * 2)}>
+            <PaginationLink onClick={() => setOffset(limit * 2)}>
                 3
-              </PaginationLink>
+            </PaginationLink>
             </PaginationItem>
             <PaginationItem>
-              <PaginationLink
+            <PaginationLink
                 onClick={() => {
-                  if (tableData) setOffset(offset + limit);
+                if (tableData) setOffset(offset + limit);
                 }}
                 next
-              />
+            />
             </PaginationItem>
-          </Pagination>
+            </Pagination>
           <Form>
             <FormGroup style={{ display: "flex", alignItems: "center" }}>
               <Label for="limitChange"></Label>
