@@ -12,3 +12,6 @@ Essentials your applications should have:
 4. mark some banks as **favourites**. View banks that were marked as favourites (favourites should persist state event if the website is refreshed or reloaded)
 5. API calls should be cached
 6. your application should be deployed to Heroku
+
+![image](https://user-images.githubusercontent.com/58088622/119093521-6ffbce00-ba2d-11eb-851d-c346056a809c.png)
+
